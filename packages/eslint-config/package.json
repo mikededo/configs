@@ -1,0 +1,43 @@
+{
+  "name": "@mikededo/eslint-config",
+  "version": "0.0.0",
+  "description": "Opinionated eslint configuration",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "homepage": "https://github.com/mikededo/configs#readme",
+  "bugs": {
+    "url": "https://github.com/mikededo/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mikededo/configs.git"
+  },
+  "license": "ISC",
+  "author": "Miquel de Domingo <miquelddg@gmail.com>",
+  "main": "index.js",
+  "directories": {},
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.53.0",
+    "@typescript-eslint/parser": "5.53.0",
+    "eslint": "8.0.1",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-config-standard-with-typescript": "34.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.0.0",
+    "prettier": "2.8.4",
+    "typescript": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
