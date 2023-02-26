@@ -1,6 +1,6 @@
 {
   "name": "@mikededo/eslint-config-react",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Opinionated eslint configuration that extends airbnb's configuration",
   "keywords": [
@@ -23,7 +23,7 @@
     "url": "https://github.com/mikededo/configs/issues"
   },
   "devDependencies": {
-    "@mikededo/eslint-config": "0.1.0",
+    "@mikededo/eslint-config": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "5.53.0",
     "@typescript-eslint/parser": "5.53.0",
     "eslint": "8.35.0",
