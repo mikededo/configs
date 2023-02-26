@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "prepublish": "lerna version",
+    "publish": "lerna publish from-package"
+  },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "5.0.0",
     "lerna": "^5.5.4"
