@@ -18,3 +18,6 @@ Or:
   "extends": "@mikededo/eslint-config"
 }
 ```
+
+> **Info**: Make sure to also install the `peerDependencies`.
+
