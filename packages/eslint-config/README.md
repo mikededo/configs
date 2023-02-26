@@ -1,11 +1,20 @@
 # `@mikededo/eslint-config`
 
-> TODO: description
+![Version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/mikededo/configs?color=red&filename=packages%2Feslint-config%2Fpackage.json&logo=npm&style=for-the-badge)
 
 ## Usage
 
+```js
+// .eslintrc.js
+module.exports = {
+  extends: "@mikededo/eslint-config"
+}
 ```
-const eslintConfig = require('@mikededo/eslint-config');
 
-// TODO: DEMONSTRATE API
+Or:
+
+```json
+{
+  "extends": "@mikededo/eslint-config"
+}
 ```
