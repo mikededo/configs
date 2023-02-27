@@ -8,6 +8,7 @@
       "allowBranch": "main",
       "conventionalCommits": true,
       "changelogPreset": "conventionalcommits",
+      "createRelease": "github",
       "yes": true
     }
   }
