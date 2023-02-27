@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/mikededo/configs/compare/@mikededo/eslint-config@0.2.0...@mikededo/eslint-config@0.3.0) (2023-02-27)
+
+### Features
+
+- **eslint-config:** extend `eslint:recommended` ([37b704d](https://github.com/mikededo/configs/commit/37b704d476049905ac7c7e58bc53f303cc8c7e85))
+
 ## 0.2.0 (2023-02-27)
 
 ## 0.1.1 (2023-02-26)
