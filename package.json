@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "prepub": "lerna version",
-    "pub": "lerna publish from-package"
+    "pub": "lerna publish"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "5.0.0",
