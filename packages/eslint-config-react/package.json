@@ -1,6 +1,6 @@
 {
   "name": "@mikededo/eslint-config-react",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "private": false,
   "description": "Opinionated eslint configuration that extends airbnb's configuration",
   "keywords": [
