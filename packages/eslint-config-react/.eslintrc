@@ -31,5 +31,38 @@
     "react/jsx-filename-extension": [0],
     "react/jsx-props-no-spreading": [0],
     "react/require-default-props": [0]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    },
+    {
+      "files": ["**/*.stories.tsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": [".storybook/**", "**/*.stories.tsx"],
+            "optionalDependencies": false
+          }
+        ],
+        "import/no-default-export": "off"
+      }
+    },
+    {
+      "files": ["*.spec.tsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": ["**/*.spec.tsx"],
+            "optionalDependencies": false
+          }
+        ]
+      }
+    }
+  ]
 }
